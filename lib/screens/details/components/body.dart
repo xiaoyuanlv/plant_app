@@ -12,7 +12,7 @@ class Body extends StatelessWidget {
       child: Column(
         children: [
           ImageAndIcons(size: size),
-          TitleAndPrice(title: "Angelica", country: "Russia",price: 440),
+          TitleAndPrice(title: "Angelica", country: "Russia",price: 400),
           SizedBox(height: kDefaultPadding),
           Row(
             children: [

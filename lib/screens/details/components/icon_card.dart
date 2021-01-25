@@ -15,10 +15,10 @@ class IconCard extends StatelessWidget {
     Size size = MediaQuery.of(context).size;
 
     return Container(
-      margin: EdgeInsets.symmetric(vertical: size.height * 0.03),
+      margin: EdgeInsets.symmetric(vertical: size.height * 0.01),
       padding: EdgeInsets.all(kDefaultPadding / 2),
-      height: 55,
-      width: 55,
+      height: 44,
+      width: 44,
       decoration: BoxDecoration(
         color: kBackgroundColor,
         borderRadius: BorderRadius.circular(6),
